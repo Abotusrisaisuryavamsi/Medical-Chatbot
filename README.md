@@ -113,7 +113,7 @@ http://127.0.0.1:8080
 
 ## 3. Create ECR repo to store/save docker image
 
-* Save the URI:
+* Save the URI: 453764757068.dkr.ecr.ap-southeast-2.amazonaws.com/medicalbot
 
 ```text
 xxxxxxxxxxxx.dkr.ecr.us-east-1.amazonaws.com/medical-chatbot

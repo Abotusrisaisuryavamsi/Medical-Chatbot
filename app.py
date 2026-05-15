@@ -40,8 +40,13 @@ retriever = docsearch.as_retriever(
 )
 
 # Ollama Llama3 Model
+#chatModel = ChatOllama(
+#    model="llama3"
+#)
+
 chatModel = ChatOllama(
-    model="llama3"
+    model="llama3",
+    base_url="http://host.docker.internal:11434"
 )
 
 # Prompt
